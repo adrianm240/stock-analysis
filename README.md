@@ -10,10 +10,7 @@ To refactor and improve the efficiency of an Excel VBA macro code that automates
 ## Results
 The refactored code was significantly faster than the original. The 2018 refactored script was 725% faster (0.078125 vs 0.6445313), while the 2017 refactored script was 735% faster(0.078125 vs 0.6523438).
 
-![VBA_Challenge_2017](https://user-images.githubusercontent.com/106203262/174647248-bfb98e61-b902-497c-878b-c00d547f4748.png)
-
-![VBA_Challenge_2018](https://user-images.githubusercontent.com/106203262/174647261-24fcd1d4-8ee1-4b1a-822f-5b06e2f9cd9a.png)
-
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/106203262/174647248-bfb98e61-b902-497c-878b-c00d547f4748.png)   ![VBA_Challenge_2018](https://user-images.githubusercontent.com/106203262/174647261-24fcd1d4-8ee1-4b1a-822f-5b06e2f9cd9a.png)
 
 ### Refactored Code
 The primary difference in the refactored code was the use of a ticker index and three array variables which allowed the script to loop through the data only 1 time to collect the same information as the original, which did it in 12 loops.
